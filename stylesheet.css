@@ -1,6 +1,7 @@
 html, body {
   background-image: url('bg.jpg');
-  background-size: 100% auto;
+  background-size: cover;
+  background-attachment: fixed;
   background-position: center;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
