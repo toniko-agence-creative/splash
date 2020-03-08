@@ -1,0 +1,88 @@
+html, body {
+  background-image: url('bg.jpg');
+  background-size: 100% auto;
+  background-position: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  margin: 5rem auto 0 auto;
+  margin: 13vh auto 0 auto;
+  text-align: center;
+}
+
+h1 img {
+  height: 15vh;
+}
+
+main {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  color: #e1251b;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+  font-size: 5rem;
+  margin: 0 1rem;
+}
+
+main p {
+  color: White;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 0.2rem 2rem 0 2rem;
+}
+
+footer p {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+footer p a {
+  color: White;
+  text-decoration: none;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (orientation: portrait) and (min-width: 750px) {
+  h1 img {
+    height: 12vh;
+  }
+
+  h2 {
+    font-size: 8rem;
+    line-height: 90%;
+  }
+
+  main p {
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+
+  footer p {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  h2 {
+    font-size: 3rem;
+  }
+
+  main p {
+    font-size: 1rem;
+  }
+}
